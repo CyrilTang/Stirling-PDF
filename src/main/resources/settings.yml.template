@@ -3,11 +3,11 @@
 # If you want to override with environment parameter follow parameter naming SECURITY_INITIALLOGIN_USERNAME
 
 security:
-  enableLogin: false # set to 'true' to enable login
+  enableLogin: true # set to 'true' to enable login
   csrfDisabled: true
 
 system:
-  defaultLocale: 'en-US' # Set the default language (e.g. 'de-DE', 'fr-FR', etc)
+  defaultLocale: 'zh-CN' # Set the default language (e.g. 'de-DE', 'fr-FR', etc)
   googlevisibility: false # 'true' to allow Google visibility (via robots.txt), 'false' to disallow
 
 #ui:
@@ -20,4 +20,4 @@ endpoints:
   groupsToRemove: [] # List groups to disable (e.g. ['LibreOffice'])
 
 metrics:
-  enabled: true # 'true' to enable Info APIs (`/api/*`) endpoints, 'false' to disable
+  enabled: false # 'true' to enable Info APIs (`/api/*`) endpoints, 'false' to disable
